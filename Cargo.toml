@@ -1,0 +1,14 @@
+[package]
+name = "video-scripts"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [ "crates/mp4" ]
+
+[[bin]]
+name = "vss"
+path = "bin/vss.rs"
+
+[dependencies]
+mp4 = { path = './crates/mp4' }
