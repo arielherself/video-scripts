@@ -3,6 +3,10 @@
 version = 3
 
 [[package]]
+name = "common"
+version = "0.1.0"
+
+[[package]]
 name = "mp4"
 version = "0.1.0"
 
@@ -10,5 +14,6 @@ version = "0.1.0"
 name = "video-scripts"
 version = "0.1.0"
 dependencies = [
+ "common",
  "mp4",
 ]
